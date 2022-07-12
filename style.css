@@ -1,15 +1,23 @@
 html {
+    display: flex;
+    flex: 1;
+}
+
+.dark {
     background-color: #1f2937;
+    padding-bottom: 40px;
 }
 
 h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: extra-bold;
+    margin-bottom: -10px;
 }
 
 .secondary-text,
-.header-links {
+.header-links,
+.signup {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -40,9 +48,11 @@ a {
 img {
     width: 400px;
     height: 200px;
+    padding: 30px;
 }
 
-.sing-up-button {
+.sing-up-button,
+.sign-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -52,4 +62,79 @@ img {
     border-radius: 8px;
     font-weight: bold;
     font-size: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.part-pics {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 0 160px;
+    margin: 50px 0;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+figcaption {
+    padding: 0 100px;
+    text-align: right;
+    margin-top: -40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.call {
+    background-color: #3882F6;
+    margin: 20px 100px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: -15px;
+    text-align: left;
+}
+
+.signup {
+    text-align: left;
+}
+
+.sign-button {
+    border: 2px #F9FAF8;
+}
+
+footer {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
 }
