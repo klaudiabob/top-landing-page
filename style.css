@@ -40,9 +40,9 @@ a {
 
 .info {
     display: flex;
-    justify-content: center;
-    margin-left: 90px;
-    margin-right: 90px;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 img {
@@ -51,8 +51,7 @@ img {
     padding: 30px;
 }
 
-.sing-up-button,
-.sign-button {
+.sing-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -90,7 +89,7 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     padding: 0 160px;
-    margin: 50px 0;
+    margin: 50px 30px;
 }
 
 blockquote {
@@ -102,14 +101,14 @@ blockquote {
 figcaption {
     padding: 0 100px;
     text-align: right;
-    margin-top: -40px;
+    margin-top: -30px;
     font-weight: bold;
     font-size: 16px;
 }
 
 .call {
     background-color: #3882F6;
-    margin: 20px 100px;
+    margin: 60px 100px;
     text-align: center;
     padding: 10px 30px;
     border-radius: 8px;
@@ -129,12 +128,26 @@ h3 {
 }
 
 .sign-button {
-    border: 2px #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-left: 15px;
+    height: 40px;
+    align-self: center;
 }
 
 footer {
     flex: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
+    color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -10px;
 }
